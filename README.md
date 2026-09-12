@@ -30,7 +30,7 @@ Project Structure:
 
 Design notes:
 
-Collisions between objects are resolved using a double-dispatch pattern: every object implements a `hit_by()` method and a set of `hit_<type>()` methods, so any pair of object types (e.g. a bullet hitting a block, an enemy hitting an animal) resolves through its own pair of methods rather than a large conditional chain. This keeps collision logic contained within each class and made it straightforward to add new object types.
+Collisions between objects are resolved using a double-dispatch pattern: every object implements a hit_by() method and a set of hit_<type>() methods, so any pair of object types (e.g. a bullet hitting a block, an enemy hitting an animal) resolves through its own pair of methods rather than a large conditional chain. This keeps collision logic contained within each class and made it straightforward to add new object types.
 
 About:
 
