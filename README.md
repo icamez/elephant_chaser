@@ -14,11 +14,11 @@ Controls:
 
 
 Running the game:
-
-​```bash
+```bash
 pip install pygame
 python main.py
-​```
+```
+​
 
 Project Structure:
 - main.py — entry point, launches the game
